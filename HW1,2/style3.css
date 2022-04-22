@@ -1,0 +1,20 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 550;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+}
+span {
+  font-weight: 600;
+  border-bottom: 3px solid black;
+}
+footer {
+  margin-top: 15px;
+}
+ul {
+  line-height: 25px;
+}
