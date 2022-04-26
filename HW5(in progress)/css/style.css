@@ -3,9 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 header {
-  background-color: rgb(80, 205, 186);
+  background-color: rgb(53, 49, 49);
   overflow: auto;
 }
 .container {
@@ -24,14 +23,12 @@ a {
   color: white;
   font-size: 20px;
 }
-nav {
-}
 .logo {
   float: left;
   padding: 10px;
 }
-.middle {
-  background-color: rgb(193, 212, 226);
+.first__part {
+  background-color: rgb(150, 163, 173);
 }
 h1 {
   padding-top: 90px;
@@ -41,7 +38,6 @@ button {
   margin-top: 15px;
   padding: 10px 20px;
   background-color: rgb(58, 66, 66);
-
   border-radius: 5px;
   margin-bottom: 110px;
 }
@@ -49,7 +45,23 @@ button a {
   font-size: 12px;
   color: rgb(208, 195, 195);
 }
-.footer_img {
+.main__img {
   float: left;
   padding: 30px 10px 30px 0px;
+  width: 200px;
+}
+.main__text {
+  padding-top: 70px;
+}
+.clear {
+  clear: both;
+}
+footer {
+  background-color: rgb(53, 49, 49);
+  color: white;
+  height: 100px;
+}
+footer p {
+  line-height: 100px;
+  text-align: right;
 }
