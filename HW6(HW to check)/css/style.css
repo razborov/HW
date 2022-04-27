@@ -1,0 +1,136 @@
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container__big {
+  max-width: 1264px;
+  margin: 0 0 0 176px;
+}
+.container__small {
+  max-width: 604px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fffaf3;
+}
+.big__image {
+  width: 660px;
+  height: 878px;
+  position: absolute;
+  top: -64px;
+  right: 0;
+}
+nav {
+  display: inline-block;
+  margin: 43px auto 0px 0px;
+  width: 422px;
+  height: 59px;
+}
+.small__logo {
+  float: left;
+  vertical-align: middle;
+}
+
+li {
+  float: right;
+  margin-right: 25px;
+  list-style-type: none;
+  padding-top: 23px;
+}
+a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  color: rgb(33, 29, 29);
+}
+.color__change {
+  color: #c08d5d;
+}
+.header__border {
+  width: 477px;
+  height: 42.5px;
+  border-bottom: 1px #c08d5d solid;
+}
+.clear {
+  clear: both;
+}
+.main__content {
+  width: 535px;
+  margin: 137.5px auto 4px 4px;
+}
+.food {
+  display: inline-block;
+}
+h2 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+  padding-right: 8px;
+}
+h1 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 81px;
+  letter-spacing: 0.06em;
+  padding-top: 7px;
+  padding-bottom: 45px;
+}
+p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 147.6%;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+}
+button {
+  border: none;
+  cursor: pointer;
+  margin-top: 72px;
+  margin-bottom: 62.6px;
+}
+.style__button p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 147.6%;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+  display: inline-block;
+  background: #fffaf3;
+  border: 2px solid #c08d5d;
+  line-height: 64px;
+  padding-left: 15px;
+  padding-right: 11px;
+  position: relative;
+}
+.style__button p::after {
+  content: url(../images/Vector\ 2.svg);
+  display: inline-block;
+  width: 54px;
+  height: 68px;
+  background: #c08d5d;
+  position: absolute;
+  left: 100%;
+  top: -2px;
+}
+footer {
+  text-align: center;
+}
+.vector {
+  padding-bottom: 25.97px;
+}
