@@ -1,13 +1,22 @@
+body {
+  background-color: antiquewhite;
+}
 p {
+  padding-left: 300px;
   color: rgba(rgb(29, 27, 27), rgb(90, 112, 90), rgb(145, 145, 161), 0.1);
   width: 30%;
 }
 h1 {
   color: red;
+  padding-top: 100px;
+  padding-left: 300px;
 }
 a {
+  font-weight: 600;
   color: black;
   text-decoration: none;
+  padding-left: 300px;
 }
 h2 {
+  padding-left: 300px;
 }
